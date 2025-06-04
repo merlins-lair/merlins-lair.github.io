@@ -1,2 +1,17 @@
-name: Merlins Lair
+title: Merlins Lair
 theme: minima
+
+url: "https://merlins-lair.github.io"
+baseurl: ""
+
+nav_links:
+  - title: "GitHub"
+    url: "https://github.com/merlins-lair"
+  - title: "Gitea"
+    url: "https://git.merlinslair.net/"
+  - title: "Owncloud"
+    url: "https://share.merlinslair.net/login"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
