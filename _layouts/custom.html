@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    header {
+      text-align: center;
+      font-size: 2em;
+      padding: 1em 0;
+      font-weight: bold;
+    }
+
+    .link-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 70vh;
+      gap: 1.5em;
+    }
+
+    .link-wrapper a {
+      color: #b366ff;
+      text-decoration: none;
+      font-size: 1.8em;
+      text-shadow: 1px 1px 0 white;
+    }
+
+    .link-wrapper a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      display: none;
+    }
+
+    nav {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>Merlin's Lair</header>
+  {{ content }}
+</body>
+</html>
